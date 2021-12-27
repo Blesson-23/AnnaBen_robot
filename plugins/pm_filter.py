@@ -530,7 +530,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('🔱 Join Our Main Channel 🔱', url='https://t.me/Troll_movie_suggestions_CG'),
             ],[
             InlineKeyboardButton('Group 1', url='https://t.me/moviemall00'),
-            InlineKeyboardButton('Channel', url='https://t.me/Seriesclubgroup'),
+            InlineKeyboardButton('Channel', url='https://t.me/+g18GRpnAhAJiMTQ1'),
             InlineKeyboardButton('Group 2', url='https://t.me/Cinephile_reviews')
             ],[
             InlineKeyboardButton('« Back', callback_data='start'),
