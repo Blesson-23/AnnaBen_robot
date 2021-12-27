@@ -438,15 +438,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-            InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url='http://t.me/Maakri_filter_bot?startgroup=true')
+            InlineKeyboardButton('👑 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 👑', url='http://t.me/Maakri_filter_bot?startgroup=true')
             ],[
-            InlineKeyboardButton('Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('Discussion', url='https://t.me/Cinephile_reviews')
+            InlineKeyboardButton('🌝 Sᴇᴀʀᴄʜ', switch_inline_query_current_chat=''),
+            InlineKeyboardButton('📝 Discussion', url='https://t.me/Cinephile_reviews')
             ],[
-            InlineKeyboardButton('Gʀᴏᴜᴘ & Cʜᴀɴɴᴇʟ Lɪɴᴋs', callback_data='source')
+            InlineKeyboardButton('✨ Gʀᴏᴜᴘ & Cʜᴀɴɴᴇʟ Lɪɴᴋs ✨', callback_data='source')
             ],[
-            InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardButton('🚶‍♂ Hᴇʟᴘ', callback_data='help'),
+            InlineKeyboardButton('😎 Aʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
@@ -527,11 +527,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "source":
         buttons = [[
-            InlineKeyboardButton('Join Our Main Channel', url='https://t.me/Troll_movie_suggestions_CG'),
+            InlineKeyboardButton('🔱 Join Our Main Channel 🔱', url='https://t.me/Troll_movie_suggestions_CG'),
             ],[
-            InlineKeyboardButton('Group 1', url='https://t.me/cinemagalaxychat'),
+            InlineKeyboardButton('Group 1', url='https://t.me/moviemall00'),
             InlineKeyboardButton('Channel', url='https://t.me/Seriesclubgroup'),
-            InlineKeyboardButton('Group 2', url='https://t.me/+z-6IGd4rYYtkMDdl')
+            InlineKeyboardButton('Group 2', url='https://t.me/Cinephile_reviews')
             ],[
             InlineKeyboardButton('« Back', callback_data='start'),
             InlineKeyboardButton('Close', callback_data='close_data')
