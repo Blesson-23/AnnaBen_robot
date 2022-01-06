@@ -49,7 +49,7 @@ async def start(client, message):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_video(
-            video=random.choice(pics),
+            video=random.choice(PICS),
             caption=script.START_TXT.format(message.from_user.mention, temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode='html'
@@ -88,7 +88,7 @@ async def start(client, message):
             InlineKeyboardButton('Gʀᴏᴜᴘ & Cʜᴀɴɴᴇʟ Lɪɴᴋs', callback_data='source')
             ],[
             InlineKeyboardButton('Hᴇʟᴘ', callback_data='help'),
-            InlineKeyboardButton('Aʙᴏᴜᴛ', callback_data='about')
+            InlineKeyboardo=random.choice(PICS)Button('Aʙᴏᴜᴛ', callback_data='about')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_video(
