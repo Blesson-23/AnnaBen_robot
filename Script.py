@@ -1,13 +1,13 @@
 class script(object):
     START_TXT = """Hello {},
-My Name , <a href='https://t.me/Maakri_filter_bot'>Millie ✨🕊</a>,
+My Name , <a href='https://t.me/CGfilterv2bot'>𝐇𝐞𝐫𝐦𝐢𝐨𝐧𝐞 𝐠𝐫𝐚𝐧𝐠𝐞𝐫</a>,
 It's Very Easy Just Add Me To Your Group And Make Me Admin, That's All I'll Provide Movies There 🤓
 """
     HELP_TXT = """Hey {}
 
 Here Is The Help For My Commands."""
-    ABOUT_TXT =  """<b>⪼ Mʏ Nᴀᴍᴇ : <a href='https://t.me/Maakri_filter_bot'>Millie ✨</a>
-⪼ Dᴇᴠᴇʟᴏᴘᴇʀ1 : <a href='https://t.me/blesson_3'>Mʀ Mᴀᴋʀɪ</a>
+    ABOUT_TXT =  """<b>⪼ Mʏ Nᴀᴍᴇ : <a href='https://t.me/CGfilterv2bot'>𝐇𝐞𝐫𝐦𝐢𝐨𝐧𝐞 𝐠𝐫𝐚𝐧𝐠𝐞𝐫</a>
+⪼ Dᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/Monuten007'>copycat</a>
 ⪼ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʀᴏɢʀᴀᴍ</a>
 ⪼ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/'>Pʏᴛʜᴏɴ 3</a>
 ⪼ Dᴀᴛᴀ Bᴀsᴇ: <a href='https://cloud.mongodb.com/'>Mᴏɴɢᴏ Dʙ</a>
